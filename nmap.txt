@@ -1,1 +1,27 @@
+the command flow
 
+ifconfig (got the ip of the network connected)
+
+nmap -sS 192.x.x.x/24
+
+Starting Nmap 7.95 ( https://nmap.org ) at 2025-11-16 09:03 CST
+Nmap scan report for 192.x.x.x
+Host is up (0.013s latency).
+Not shown: 997 closed tcp ports (reset)
+PORT     STATE    SERVICE
+23/tcp   filtered telnet
+80/tcp   open     http
+5431/tcp open     park-agent
+MAC Address:(NOT SHOWN FOR SECURE REASONS)
+
+
+
+(Here I was having the diffent devive with differnt ip and mac)
+Nmap scan report for 192.x.x.x
+Host is up (0.0099s latency).
+All 1000 scanned ports on 192.x.x.x are in ignored states.
+Not shown: 1000 closed tcp ports (reset)
+MAC Address: (NOT SHOWN FOR SECURE REASONS) (Unknown)
+
+
+same as above I found multiple connected devices
