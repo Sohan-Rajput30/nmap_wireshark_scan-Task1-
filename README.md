@@ -13,3 +13,6 @@ Then to check the open ports
 nmap -sS 192.x.x.x/24
 
 This gave me the data of the all the devices connected to my network like the open ports the devie name of some devices also the mac address of the devices
+
+
+Then I opened the wireshark that was used to capture the network packets as the document file with the commands and the screenshots is uploaded
